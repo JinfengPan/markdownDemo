@@ -83,7 +83,7 @@ inline:
 
 [markdown Demo on GitHub](https://github.com/patrickfly/markdownDemo "Title: This is a demo")
 
-![Jennifer](http://ask.rednet.cn/uploads/answer/20130621/b21973973c6baa27659855804bc56dbe.jpg "Jennifer the girl")
+![Jennifer](../imgs/Jennifer.jpg "Jennifer the girl")
 
 by reference:
 
