@@ -70,6 +70,40 @@ block quote
 
 图片和链接都有两种写法：inline 或者 reference
 
+inline:
+
 [markdown Demo on GitHub](https://github.com/patrickfly/markdownDemo "Title: This is a demo")
 
-![]
+![Jennifer](http://ask.rednet.cn/uploads/answer/20130621/b21973973c6baa27659855804bc56dbe.jpg "Jennifer the girl")
+
+by reference:
+
+[markdown Demo on GitHub][Link1]
+![Jennifer][Image1]
+
+a Tag
+
+Image source: <http://ask.rednet.cn/uploads/answer/20130621/b21973973c6baa27659855804bc56dbe.jpg>
+
+
+
+
+[Link1]: https://github.com/patrickfly/markdownDemo "Title: This is a demo"
+[Image1]: http://ask.rednet.cn/uploads/answer/20130621/b21973973c6baa27659855804bc56dbe.jpg "Jennifer the girl"
+
+
+Table
+
+Desserts | Calories
+---------|-----------
+Brownie  | 230
+Cookie   | 210
+PB Cup   | 700
+
+Fenced Code
+
+```
+var count = 5;
+var price = 10;
+var totl = count * price;
+```
